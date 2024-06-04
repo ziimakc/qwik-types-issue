@@ -17,3 +17,7 @@ export const InputBase = component$<InputProps>((props) => {
 export const InputWrapper = component$<InputProps>((props) => {
   return <InputBase autoComplete="email" {...props} />;
 });
+
+export const InputWrapper2 = component$<InputProps>((props) => {
+  return <InputBase {...props} />;
+});
